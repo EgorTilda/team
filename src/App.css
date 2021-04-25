@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(50vh - 57px);
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: none;
+    text-decoration: none;
+
+}
+
+.about {
+
+}
+
+.about__title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.about__logo {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.about__content {
+    text-align: center;
+}
+
+.team {
+    width: 100%;
+    margin: 0 auto;
+
+}
+.team__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.team__avatar {
+    width: 120px;
+    margin: 16px auto;
+}
+.team__content {
+    width: 80%;
+    margin: 0 auto;
+}
+.team__link {
+    display: flex;
+    align-items: center;
+    color: #000;
+    margin: 30px auto;
+    padding: 5px 20px;
+    max-width: 50%;
+    text-align: center;
+}
+.team__link-text {
+    margin-left: 10px;
+    font-weight: 700;
+}
